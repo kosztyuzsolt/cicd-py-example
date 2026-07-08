@@ -13,5 +13,5 @@ def test_add_negative():
 
 def test_add_string__expect_exception():
     with pytest.raises(TypeError):
-        add_numbers(4, 3)
+        add_numbers(4, "megjavult")
 
